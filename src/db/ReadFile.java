@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ReadFile extends UserFile {
+public class ReadFile  { //extends UserFile
     String filePath = "C:\\Users\\Kirill\\Desktop\\Senla\\ATM\\src\\db\\Clients.txt";
     List<UserAccount> userAccountsList = new ArrayList<>();
     HashMap<Long, UserAccount> userAccountsMap = new HashMap<>();

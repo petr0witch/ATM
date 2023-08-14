@@ -27,24 +27,6 @@ public class BankATMService extends UserAccount {
 
     private String filePath = "C:\\Users\\Kirill\\Desktop\\Senla\\ATM\\src\\db\\Clients.txt";
 
-//    public void saveData() {
-//        try {
-//            BufferedWriter writer = new BufferedWriter(new FileWriter(filePath));
-//
-//            for (UserAccount item : userAccountsList) {
-//                writer.write(item.getCurrentCardNumber() + " ");
-//                writer.write(item.getName() + " ");
-//                writer.write(item.getPinCode() + " ");
-//                writer.write(item.getBalance() + "\n");
-//            }
-//            writer.close();
-//
-//        } catch (IOException e) {
-//            System.out.println("Error saving user accounts: " + e.getMessage());
-//        }
-//        start();
-//    }
-
     public boolean identification() {
         Scanner sc = new Scanner(System.in);
         while (true) {
